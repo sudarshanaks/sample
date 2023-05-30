@@ -8,7 +8,12 @@ metadata:
   annotations:
     gitlab.com/project-slug: pes/sap
     backstage.io/techdocs-ref: dir:/docs
+  tags:
+    - ansible
+    - aws
+    - azure
+    - ibmcloud
 spec:
-  type: website
+  type: Source Control
   owner: group:ansible-code-manager
-  lifecycle: experimental
+  lifecycle: production
