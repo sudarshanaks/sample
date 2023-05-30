@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible_role_dns
+  language: ansible
+  description: |
+    This playbook installs & configure DNS server on RHEL 8 & Suse 15 machine
+  annotations:
+    gitlab.com/project-slug: pes/sap
+    backstage.io/techdocs-ref: dir:/docs
+spec:
+  type: website
+  owner: group:ansible-code-manager
+  lifecycle: experimental
