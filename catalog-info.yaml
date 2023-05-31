@@ -10,6 +10,8 @@ metadata:
     backstage.io/techdocs-ref: dir:/docs
   tags:
     - ansible
+    - network-utilities
+    - install
     - aws
     - azure
     - ibmcloud
