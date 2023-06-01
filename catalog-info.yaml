@@ -8,6 +8,7 @@ metadata:
   annotations:
     gitlab.com/project-slug: pes/sap
     backstage.io/techdocs-ref: dir:/docs
+    backstage.io/managed-by: backstage
   tags:
     - ansible
     - network-utilities
