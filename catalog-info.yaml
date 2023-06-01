@@ -20,10 +20,5 @@ spec:
   type: Source Control
   owner: group:ansible-code-manager
   lifecycle: production
-  dependencies:
-    - type: repo
-      target: https://github.com/org/repository-a
-      relationship: depends-on
-    - type: repo
-      target: https://github.com/org/repository-b
-      relationship: uses
+  dependsOn:
+    - component:example-website
